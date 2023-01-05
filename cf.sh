@@ -6,7 +6,7 @@ MYIP=$(wget -qO- icanhazip.com);
 echo "Checking VPS"
 
 apt install jq curl -y
-DOMAIN=domain kalian
+DOMAIN=aixxy.codes
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
 SUB_DOMAIN=${sub}.aixxy.codes
 CF_ID=zkendev@gmail.com@gmail.com
